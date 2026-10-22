@@ -10,6 +10,3 @@ print(f"notre nouveau tableau de fruit est:{fruits}")
 # "notre nouveau tableau de fruit est : XXXX"
 # "nous avons XXX fruits dans notre panier"
 print(f"nous avons {len(fruits)} fruits dans notre panier")
-
-
-
