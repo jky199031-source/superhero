@@ -32,42 +32,40 @@
 # i = 0 
 
 # while i < len(nombres):
-#     print(nombres[i])
 #     total = total + (nombres[i])
 #     i = i + 1
-    
 
 # print(total)    
 
+# exo5
 # calculer la moyenne des notes de cette classe 14 16 1 17 8
-# notes = [14, 16, 1, 17, 8]
-# total = (0)
+notes = [14, 16, 1, 17, 8]
+total = (0)
+i = 0 
 
-# i = 0 
+while i < len(notes):
+    total = total + (notes[i])
+    i = i + 1
 
-# while i < len(notes):
-#     print(notes[i])
-#     total = total + (notes[i])
-#     i = i + 1
+    moyenne = total / len(notes)
+    print(moyenne)
 
-#     moyenne = total / len(notes)
-#     print(moyenne)
-    
+print(total)    
 
-# print(total)    
-
+# exo6
 # Calculer la somme des nombres de 1 a 100
 # total = (0)
 # i = 1
 
 # while i <= 100:
-#     print(i)
 #     total = total + (i)
 #     i = i + 1
 
 # print(total)   
-# poser la question "vas tu réussir dans le dev ?" dans la console la reposer tant que la réponse n'est pas "oui"
-n = ""
 
-while n != "oui":
-    n = input("Vas tu réussir dans le dev ?")
+# exo7
+# poser la question "vas tu réussir dans le dev ?" dans la console la reposer tant que la réponse n'est pas "oui"
+# n = ""
+
+# while n != "oui":
+#     n = input("Vas tu réussir dans le dev ?")
